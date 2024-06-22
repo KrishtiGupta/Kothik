@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+     background-image: url(https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    
+}
+#main #loginpage{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+#loginpage #login{
+   background-color: rgba(254, 255, 255, 0.434);
+    width: 40%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    
+}
+h1{
+    font-size: 50px;
+    padding: 20px 30px;
+}
+h3{
+    padding: 0 20px;
+    font-size: 25px;
+}
+p{
+    padding: 0 20px;
+    margin-top: 3px;
+    color: rgb(145, 139, 139);
+}
+ #loginpage #box{
+    height: 30px;
+    width: 250px;
+    margin: 10px;
+    padding-left:0 30px ;
+    border: none;
+    display: flex;
+}
+#loginpage  #checkbox{
+   padding-left:  10px;
+   height: 15px;
+   width: 15px;
+   margin: 7px;
+}
+.logbtn{
+    margin-top: 20px;
+    height: 35px;
+    width: 100px;
+    left: 10%;
+    transform: translate(10%, 0);
+    border: none;
+    background-color: rgb(18, 216, 84);
+    cursor: pointer;
+   
+}
+h6{
+    color: rgb(159, 153, 153);
+    margin-top: 15px ;
+    padding: 0 10px;
+    
+}
+a{
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 10px;
+    color:  rgb(18, 216, 84);
+    
+}
+#loginpage #image{
+    height: 100%;
+    width: 70%;
+    /* background-color: black; */
+    background-image: url(https://images.unsplash.com/photo-1572978841127-8883b88e85c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    background-position: center;
+}
